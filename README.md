@@ -1,4 +1,5 @@
 # Quick-Fix
+[Download the app](https://drive.google.com/file/d/1mifGUQtoMYDv5hGp7a2KULTRuKLcb4in/view?usp=share_link)
 > This app contains two User Interface one for **end user** and other for **admin view**.
 ## Screen Shots for *User* view of the application
 - Authentication Pages
