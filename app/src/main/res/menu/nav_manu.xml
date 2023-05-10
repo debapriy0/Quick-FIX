@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/ic_add_item"
+            android:title="Home" />
+        <item
+            android:id="@+id/Admin"
+            android:icon="@drawable/ic_home"
+            android:title="Admin Panel" />
+        <item android:title="Profile">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/login"
+                        android:icon="@drawable/ic_login"
+                        android:title="Sign In" />
+                    <item
+                        android:id="@+id/Account"
+                        android:icon="@drawable/ic_account"
+                        android:title="Account" />
+                </group>
+            </menu>
+        </item>
+        <item android:title="Order Section">
+            <menu>
+                <group android:checkableBehavior="single"
+                    android:id="@+id/order_group">
+                    <item
+                        android:id="@+id/Myorder"
+                        android:icon="@drawable/ic_shopping_cart"
+                        android:title="My Order" />
+                    <item
+                        android:id="@+id/Pendingorder"
+                        android:icon="@drawable/ic_pending"
+                        android:title="Pending Order" />
+
+                    <item
+                        android:id="@+id/Myref"
+                        android:icon="@drawable/ic_coupon"
+                        android:title="My Referral" />
+                </group>
+            </menu>
+        </item>
+        <item android:title="Communication">
+            <menu>
+                <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Helpcenter"
+            android:icon="@drawable/ic_help"
+            android:title="Help Center"/>
+        <item
+            android:id="@+id/Aboutus"
+            android:icon="@drawable/ic_info"
+
+            android:title="About App" />
+        <item android:id="@+id/Logout"
+            android:icon="@drawable/ic_out"
+            android:title="Log Out">
+
+        </item>
+        </group>
+            </menu>
+        </item>
+    </group>
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:gravity="top"
+    android:orientation="horizontal"
+    android:background="@drawable/material"
+    android:padding="10dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    tools:ignore="MissingDefaultResource">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/mkview"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:civ_border_color="#F8F846"
+        android:layout_gravity="center"
+        android:src="@drawable/default_female"
+        app:civ_border_width="4dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/uname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nameuser"
+            android:textAlignment="viewEnd"
+            android:textColor="#FDFDFD"
+            android:maxLines="1"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/udevice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textAlignment="viewEnd"
+            android:text="@string/deviceuser"
+            android:textColor="#FDFDFD"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

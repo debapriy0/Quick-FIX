@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Quick-FIX</string>
+    <string name="requestplace">Place request</string>
+    <string name="devicefound">Tap icon to find your device</string>
+    <string name="bill">Do you have bill</string>
+    <string name="billupload">Upload Your Device\'s Bill</string>
+    <string name="problemselect">Select Problems :</string>
+    <string name="problemphoto">Upload Current Device Photo</string>
+    <string name="problemadditional">Addition Problem if any...</string>
+    <string name="nameuser">User Name</string>
+    <string name="deviceuser">User Device</string>
+    <string name="open">project</string>
+    <string name="close">project</string>
+
+    <string name="op1">Make Easy Orders</string>
+    <string name="op2">Hand To Hand Delivery With Care</string>
+    <string name="op3">Make Easy Payment</string>
+
+    <string-array name="admin_tokens">
+        <item>cNh_sAmeRROIa9VtYzI3JU:APA91bEXLJKscZDThlrVjEcE1a65iCZ_uennHH-DKuLWy3jvUqMQ7xbTfBFDhFNkTL4smUo_8TZhh_dvZ0nZF-uT3FtwxJ1Hhp_vN_chKJ-ClXIRWmqvQXJMrgyU-CyvgdMF-Vx6SoP9</item>
+        <item>cXmvBAPQR5qVHLlbIrGobV:APA91bE9j7lmb9ozyZ9_IJ1CFR5SRXQgW5c8YxXzudubHaQQ9uIvCP9E-o9RrZa0VqaH0m3OvPas8B7um8Ns37zYGuqfQP5mbseeeSbcFbw-FaclKoz5743i-Li97wtUD_A3x24ig_Rb</item>
+    </string-array>
+
+    <string name="serverkey">AAAAN6sk20I:APA91bFeWAW023u1794hvn_hnhtNWgpPJRPvc-Am859TeBW42cj98c2Q0Z9xdXnU3wTMoo5x2v66p_tPNsqcfb9GhtWkoNbp2FmdhZVACliqCcgFTxUtro5VQUlJusFMzxF2QSMZbn-P</string>
+</resources>
